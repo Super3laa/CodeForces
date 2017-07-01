@@ -1,0 +1,5 @@
+n = int(input())
+arr1 = map(int, raw_input().split())
+arr2 = map(int, raw_input().split())
+arr = set(arr1[1:]+arr2[1:])
+print ( "I become the guy." if len(arr) == n else  "Oh, my keyboard!")

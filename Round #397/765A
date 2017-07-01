@@ -1,0 +1,13 @@
+n = int(input())
+home = raw_input()
+arr1=[]
+arr2=[]
+for i in range(n):
+    x=raw_input()
+    if home in x:
+        arr1.append(x[0:3])
+        arr2.append(x[5::])
+if arr1.count(home) == arr2.count(home):
+    print 'home'
+else:
+    print'contest'
